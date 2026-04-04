@@ -12,10 +12,15 @@ public class loop1{
     // }
     // print hello in n times take n from user
     
-    int n=5;
-    for(int i=1;i<= n ;i++){
-      System.out.println("hello");
+    // int n=5;
+    // for(int i=1;i<= n ;i++){
+    //   System.out.println("hello");
+    int a =123;
+    int rev= 0;
+    for(int i=a;i>0;i=i/10){
+       rev= rev +i;
     }
     }
   }
+  
 
