@@ -26,4 +26,7 @@ public class anonymousArray {
     // sum of array is :15
 // two dimensional array 
      // sum of array is :210   
-
+// anonymous array defination
+    //   anonymous array is an array that is created without a reference variable .
+    // It is used when we want to pass an array as an argument to a method without creating a separate variable for it . 
+    // it can be used only once and cannot be reused .
