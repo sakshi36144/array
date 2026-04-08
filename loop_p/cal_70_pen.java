@@ -1,4 +1,4 @@
-package loop;
+package loop_p;
 import java.util.Scanner;
 public class cal_70_pen{
     public static void main(String[] args)
