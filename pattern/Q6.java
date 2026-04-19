@@ -1,4 +1,4 @@
-package loop_p.pattern;
+package pattern;
 
 public class Q6{
     public static void main(String[] args){

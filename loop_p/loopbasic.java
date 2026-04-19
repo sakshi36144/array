@@ -1,4 +1,4 @@
-package loop_p;
+
 import java.util.Scanner;
 
 public class loopbasic {

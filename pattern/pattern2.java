@@ -1,5 +1,5 @@
     //  half diamond star pattern
-    package loop_p.pattern;
+    package pattern;
 public class pattern2{
  public static void main(String[] args){
     for (int i=1; i<=5; i++){                      
