@@ -1,4 +1,5 @@
-package oops;
+package Class;
+
 // class
 public class c2{
     // int no_of_eyes=2;

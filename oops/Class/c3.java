@@ -1,4 +1,5 @@
-package oops;
+package Class;
+
 class a1{
     void run(){
         System.out.println("running");

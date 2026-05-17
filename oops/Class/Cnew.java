@@ -1,4 +1,5 @@
-package oops;
+package Class;
+
 public class Cnew{
     void main() {
        System.out.println("this is new oops");

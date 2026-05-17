@@ -1,4 +1,5 @@
-package oops;
+package Class;
+
 // class
 public class cl{
     // methods

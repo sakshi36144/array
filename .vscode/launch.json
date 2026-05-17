@@ -6,6 +6,237 @@
     "configurations": [
         {
             "type": "java",
+            "name": "M18",
+            "request": "launch",
+            "mainClass": "Methods.M18",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M17",
+            "request": "launch",
+            "mainClass": "Methods.M17",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M15",
+            "request": "launch",
+            "mainClass": "Methods.M15",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M14",
+            "request": "launch",
+            "mainClass": "Methods.M14",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M13",
+            "request": "launch",
+            "mainClass": "Methods.M13",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M12",
+            "request": "launch",
+            "mainClass": "Methods.M12",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M11",
+            "request": "launch",
+            "mainClass": "Methods.M11",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M10",
+            "request": "launch",
+            "mainClass": "M10",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M9",
+            "request": "launch",
+            "mainClass": "M9",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M8",
+            "request": "launch",
+            "mainClass": "oops.M8",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M7",
+            "request": "launch",
+            "mainClass": "oops.M7",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M6",
+            "request": "launch",
+            "mainClass": "oops.M6",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M5",
+            "request": "launch",
+            "mainClass": "oops.M5",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M4",
+            "request": "launch",
+            "mainClass": "oops.M4",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M3",
+            "request": "launch",
+            "mainClass": "oops.M3",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M2",
+            "request": "launch",
+            "mainClass": "oops.M2",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M1",
+            "request": "launch",
+            "mainClass": "oops.M1",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q9",
+            "request": "launch",
+            "mainClass": "if_else.Q9",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q22",
+            "request": "launch",
+            "mainClass": "Num_patterns.Q22",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q21",
+            "request": "launch",
+            "mainClass": "Num_patterns.Q21",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q20a",
+            "request": "launch",
+            "mainClass": "Num_patterns.Q20a",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q19a",
+            "request": "launch",
+            "mainClass": "Num_patterns.Q19a",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q18a",
+            "request": "launch",
+            "mainClass": "Num_patterns.Q18a",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q17a",
+            "request": "launch",
+            "mainClass": "Num_patterns.Q17a",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q3",
+            "request": "launch",
+            "mainClass": "Num_patterns.Q3",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q8",
+            "request": "launch",
+            "mainClass": "Num_patterns.Q8",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q13",
+            "request": "launch",
+            "mainClass": "Num_patterns.Q13",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q15",
+            "request": "launch",
+            "mainClass": "Num_patterns.Q15",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q25",
+            "request": "launch",
+            "mainClass": "pattern.Q25",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q24",
+            "request": "launch",
+            "mainClass": "pattern.Q24",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q23",
+            "request": "launch",
+            "mainClass": "pattern.Q23",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q22",
+            "request": "launch",
+            "mainClass": "pattern.Q22",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q21",
+            "request": "launch",
+            "mainClass": "pattern.Q21",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
