@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Q6",
+            "request": "launch",
+            "mainClass": "DependenceyInjection.Q6",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q5",
+            "request": "launch",
+            "mainClass": "DependenceyInjection.Q5",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q4",
+            "request": "launch",
+            "mainClass": "DependenceyInjection.Q4",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q3",
+            "request": "launch",
+            "mainClass": "DependenceyInjection.Q3",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "DependenceyInjection.Q2",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "DependenceyInjection.Q1",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
             "name": "M18",
             "request": "launch",
             "mainClass": "Methods.M18",
