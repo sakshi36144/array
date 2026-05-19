@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Q4",
+            "request": "launch",
+            "mainClass": "constructors.Q4",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "constructors.Q1",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "nw",
+            "request": "launch",
+            "mainClass": "folder.nw",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q3",
+            "request": "launch",
+            "mainClass": "constructors.Q3",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "constructors.Q2",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
             "name": "Q6",
             "request": "launch",
             "mainClass": "DependenceyInjection.Q6",

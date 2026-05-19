@@ -17,9 +17,9 @@ class Person {
 	}
 
 	public void dependencyInjection(int id, String name, int age, String gender) {
-
+		System.out.println(this);
 		this.id = id;
-		this.name = name;
+		 this.name = name;
 		this.age = age;
 		this.gender = gender;
 
@@ -33,12 +33,14 @@ public class Q1 {
 
 		Person vikas = new Person();// 1.Obj Creation / Memory Allocation
 //		2. Obj Initialization
-		vikas.id = 101;
-		vikas.name = "Vikas Singh";
-		vikas.age = 44;
-		vikas.gender = "Male";
+		vikas.dependencyInjection(6567, "hfhgfdgh", 75643, "llhfhghgk");
+		// vikas.id = 101;
+		// vikas.name = "Vikas Singh";
+		// vikas.age = 44;
+		// vikas.gender = "Male";
 		
 		vikas.printDescriptions();
+		System.out.println(vikas);
 
 		Person anoop = new Person();// 1.Obj Creation / Memory Allocation
 
