@@ -1,8 +1,9 @@
-package constructors;
+
  class MicrosoftEmp{
     int id;
     String name;
     String address;
+    // Static variable to hold the company name, shared by all instances of MicrosoftEmp
     static String companyName;
     public MicrosoftEmp(int id, String name, String address){
         this.id=id;
@@ -20,6 +21,7 @@ package constructors;
 }
 public class Q4 {
     public static void main(String[] args) {
+        // Accessing the static variable directly using the class name without creating an instance
         MicrosoftEmp.companyName = "Microsoft";
         System.out.println( MicrosoftEmp.companyName);
         MicrosoftEmp emp1 = new MicrosoftEmp(1, "John Doe", "Main St");

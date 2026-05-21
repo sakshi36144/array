@@ -1,4 +1,4 @@
-package constructors;
+
 class person{
     private String name;
     private int age;
