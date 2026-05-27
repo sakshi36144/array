@@ -1,10 +1,10 @@
 package Encapsulation;
 // create class
- class Student{
+ class Student2{
    private String name,address,course,gender;
    private int age;
 //    create constructor
-    public Student(String name, String address, String course ,String gender,int age){
+    public Student2(String name, String address, String course ,String gender,int age){
         this.name=name;
         this.address=address;
         this.course=course;
@@ -35,7 +35,7 @@ public int getAge(){return age;}
 public class getterSetter {
     public static void main(String[] args){
         // john studen1
-        Student john= new Student("John", "123 Main St", "Computer Science", "Male", 20);
+        Student2 john= new Student2("John", "123 Main St", "Computer Science", "Male", 20);
         john.print();
          System.out.println("--------------------------------------------------");
         // update the name and age using setter method
@@ -49,7 +49,7 @@ public class getterSetter {
         System.out.println("After updating course using setter method : " + john.getCourse());
         System.out.println("--------------------------------------------------");
         //   aditya student 2
-          Student aditya= new Student("Aditya", "456 Oak Ave", "Mechanical Engineering", "Male", 22);
+          Student2 aditya= new Student2("Aditya", "456 Oak Ave", "Mechanical Engineering", "Male", 22);
         aditya.print();
          System.out.println("--------------------------------------------------");
         // update the name and age using setter method
