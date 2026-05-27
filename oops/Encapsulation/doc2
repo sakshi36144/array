@@ -1,0 +1,101 @@
+// 
+/*
+          final Keyword in Java
+
+The final keyword in Java is used to make something fixed or unchangeable.
+
+It can be used with:
+
+Variable
+Method
+Class
+1. Final Variable
+
+A final variable cannot be changed after assigning a value.
+
+Example
+class Demo {
+
+    final int speed = 100;
+
+    void display() {
+
+        // speed = 200; ❌ Error
+
+        System.out.println(speed);
+    }
+}
+Output
+100
+Explanation
+final int speed = 100;
+speed becomes constant
+Value cannot be modified later
+2. Final Method
+
+A final method cannot be overridden in a child class.
+
+Example
+class Parent {
+
+    final void show() {
+        System.out.println("Parent Method");
+    }
+}
+
+class Child extends Parent {
+
+    // void show() {} ❌ Error
+}
+Explanation
+Child class cannot change the parent method implementation.
+3. Final Class
+
+A final class cannot be inherited.
+
+Example
+final class Animal {
+
+    void sound() {
+        System.out.println("Animal Sound");
+    }
+}
+
+// class Dog extends Animal {} ❌ Error
+Explanation
+No class can extend a final class.
+Real-Life Example
+Keyword Use	Real-Life Meaning
+final variable	Fixed value like PI
+final method	Rule cannot be changed
+final class	Fully secured class
+Important Points
+Type	Meaning
+final variable	Value cannot change
+final method	Cannot override
+final class	Cannot inherit
+Example with Constant
+class Test {
+
+    final double PI = 3.14;
+
+    void area() {
+
+        double r = 5;
+
+        double result = PI * r * r;
+
+        System.out.println(result);
+    }
+}
+Advantages of final
+
+✅ Security
+✅ Prevent modification
+✅ Create constants
+✅ Improve code safety
+
+Simple Definition
+
+The final keyword is used to restrict changes in Java.
+ */

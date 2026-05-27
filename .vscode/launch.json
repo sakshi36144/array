@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fin_al2",
+            "request": "launch",
+            "mainClass": "Encapsulation.fin_al2",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "fin_al",
+            "request": "launch",
+            "mainClass": "Encapsulation.fin_al",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "getterSetter",
+            "request": "launch",
+            "mainClass": "Encapsulation.getterSetter",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
             "name": "practice1",
             "request": "launch",
             "mainClass": "practice1",
