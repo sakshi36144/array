@@ -325,11 +325,11 @@ int id;
 
 🚀 QUICK REVISION TABLE
 Feature	Instance	Static
-📌 Belongs To	Object	Class
-📌 Memory	Heap	Method Area
-📌 Object Needed	✅ Yes	❌ No
-📌 Access Instance Members	✅ Yes	❌ No
-📌 Access Static Members	✅ Yes	✅ Yes
+📌 Belongs      To	       Object	      Class
+📌 Memory	                 Heap	      Method Area
+📌 Object Needed	         ✅ Yes	     ❌ No
+📌 Access Instance Members	  ✅ Yes	   ❌ No
+📌 Access Static Members	✅ Yes	   ✅ Yes
 📌 Copies Created	Multiple	One
 
 

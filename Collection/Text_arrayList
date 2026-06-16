@@ -1,0 +1,622 @@
+ArrayList in Java — Complete Notes (Basic to Advanced)
+
+Definition
+
+ArrayList is a resizable array implementation of the List interface in Java's Collection Framework.
+
+It stores elements dynamically and allows duplicates.
+
+ArrayList Formula (Easy to Remember)
+ArrayList Formula
+
+ArrayList = Dynamic Array + Ordered + Duplicate Allowed + Index Based
+
+Short Formula:
+
+ArrayList = List + Dynamic Size
+
+Hierarchy of ArrayList
+Diagram of ArrayList
+Internal Structure of ArrayList
+
+ArrayList stores elements in a dynamic array.
+
+0
+
+1
+
+2
+
+3
+
+Java
+
+Python
+
+C++
+
+Java
+
+Index 0
+
+Index 1
+
+Index 2
+
+Index 3
+
+Explanation:
+
+Elements are stored in order.
+
+Duplicates are allowed.
+
+Each element has an index.
+
+Size increases automatically when needed.
+
+Creating an ArrayList
+1. Import Package
+2. Create ArrayList
+Basic Program
+
+Output
+
+Important Features
+
+Feature
+
+	
+
+Supported?
+
+
+
+
+Dynamic Size
+
+	
+
+✔ Yes
+
+
+
+
+Duplicates
+
+	
+
+✔ Yes
+
+
+
+
+Insertion Order
+
+	
+
+✔ Yes
+
+
+
+
+Index Access
+
+	
+
+✔ Yes
+
+
+
+
+Primitive Types
+
+	
+
+✘ No
+
+
+
+
+Objects
+
+	
+
+✔ Yes
+
+Important Methods
+1. add()
+2. get()
+3. set()
+4. remove()
+5. size()
+6. contains()
+7. clear()
+8. isEmpty()
+Complete Example
+Traversing ArrayList
+1. for Loop
+2. Enhanced for Loop
+3. forEach Method
+ArrayList of Integer
+ArrayList of Objects
+Sorting ArrayList
+
+Output
+
+Capacity vs Size
+
+Term
+
+	
+
+Meaning
+
+
+
+
+Size
+
+	
+
+Number of elements stored
+
+
+
+
+Capacity
+
+	
+
+Internal array size
+
+Example
+
+Initial capacity = 10
+
+Size = 0
+
+Internal Working of ArrayList
+
+When ArrayList becomes full:
+
+Formula:
+
+This is why ArrayList grows dynamically.
+
+Array vs ArrayList
+
+Array
+
+	
+
+ArrayList
+
+
+
+
+Fixed size
+
+	
+
+Dynamic size
+
+
+
+
+Stores primitives
+
+	
+
+Stores objects
+
+
+
+
+Faster
+
+	
+
+Slightly slower
+
+
+
+
+Less flexible
+
+	
+
+More flexible
+
+
+
+
+Built into language
+
+	
+
+Collection Framework
+
+Advantages
+
+Dynamic size
+
+Easy insertion and deletion
+
+Maintains order
+
+Many utility methods
+
+Can store objects
+
+Disadvantages
+
+Slightly slower than arrays
+
+Cannot store primitive types directly
+
+More memory usage
+
+Insertion in middle can be expensive
+
+Important Interview Questions
+Q1. Difference between ArrayList and LinkedList?
+
+ArrayList
+
+	
+
+LinkedList
+
+
+
+
+Uses dynamic array
+
+	
+
+Uses linked nodes
+
+
+
+
+Fast random access
+
+	
+
+Slow random access
+
+
+
+
+Slow insertion in middle
+
+	
+
+Fast insertion in middle
+
+
+
+
+Less memory
+
+	
+
+More memory
+
+Q2. Can ArrayList store duplicate values?
+
+✔ Yes.
+
+Q3. Can ArrayList store null?
+
+✔ Yes.
+
+Q4. Is ArrayList synchronized?
+
+✘ No.
+
+Use:
+
+Q5. Which is faster: Array or ArrayList?
+
+✔ Array is generally faster.
+
+Real-Life Example
+
+Imagine a classroom attendance list.
+
+If a new student joins, the list grows automatically.
+
+That is exactly how ArrayList works.
+
+Final Revision Formula
+
+ArrayList
+
+Dynamic Size
+
+Ordered
+
+Duplicates
+
+Index Based
+
+Most Important Methods:
+
+add()
+get()
+set()
+remove()
+size()
+contains()
+clear()
+isEmpty()
+
+Interview One-Line Definition:
+
+ArrayList is a resizable array implementation of the List interface that maintains insertion order and allows duplicate elements.
+
+Important Methods
+1. add()
+2. get()
+3. set()
+4. remove()
+5. size()
+6. contains()
+7. clear()
+8. isEmpty() only these method not more to include the can you pls provied the more method in this diagram 
+
+Yes. The methods you listed are only the basic ArrayList methods. For interviews and real projects, you should also know these important methods.
+
+Complete ArrayList Methods Diagram
+                    ArrayList
+                         │
+ ┌───────────────────────┼───────────────────────┐
+ │                       │                       │
+ ▼                       ▼                       ▼
+Adding Methods      Access Methods        Update Methods
+ │                  │                     │
+ ├─ add()           ├─ get()             └─ set()
+ ├─ add(index,e)
+ └─ addAll()
+
+                         │
+                         ▼
+                 Remove Methods
+                         │
+         ├─ remove(index)
+         ├─ remove(object)
+         ├─ removeAll()
+         └─ clear()
+
+                         │
+                         ▼
+                 Search Methods
+                         │
+         ├─ contains()
+         ├─ indexOf()
+         └─ lastIndexOf()
+
+                         │
+                         ▼
+                 Size Methods
+                         │
+         ├─ size()
+         └─ isEmpty()
+
+                         │
+                         ▼
+                Traversal Methods
+                         │
+         ├─ for loop
+         ├─ for-each loop
+         ├─ Iterator
+         └─ ListIterator()
+
+                         │
+                         ▼
+                Utility Methods
+                         │
+         ├─ sort()
+         ├─ clone()
+         ├─ subList()
+         ├─ toArray()
+         └─ retainAll()
+1. add()
+
+Adds an element.
+
+ArrayList<String> list = new ArrayList<>();
+
+list.add("Java");
+list.add("Python");
+
+Output:
+
+[Java, Python]
+2. add(index, element)
+
+Insert at specific position.
+
+list.add(1, "C++");
+
+Output:
+
+[Java, C++, Python]
+3. addAll()
+
+Adds another collection.
+
+ArrayList<String> list2 = new ArrayList<>();
+
+list2.add("HTML");
+list2.add("CSS");
+
+list.addAll(list2);
+4. get()
+
+Retrieves element by index.
+
+System.out.println(list.get(0));
+
+Output:
+
+Java
+5. set()
+
+Updates element.
+
+list.set(1, "JavaScript");
+
+Output:
+
+[Java, JavaScript, Python]
+6. remove(index)
+list.remove(0);
+7. remove(object)
+list.remove("Python");
+8. removeAll()
+
+Remove all matching elements.
+
+list.removeAll(list2);
+9. contains()
+
+Checks existence.
+
+list.contains("Java");
+
+Output:
+
+true
+10. indexOf()
+
+Returns first occurrence index.
+
+list.indexOf("Java");
+
+Output:
+
+0
+11. lastIndexOf()
+
+Returns last occurrence.
+
+list.lastIndexOf("Java");
+12. size()
+
+Returns total elements.
+
+list.size();
+13. isEmpty()
+
+Checks whether list is empty.
+
+list.isEmpty();
+
+Output:
+
+false
+14. clear()
+
+Removes everything.
+
+list.clear();
+
+Output:
+
+[]
+15. sort()
+
+Sort elements.
+
+Collections.sort(list);
+
+Before:
+
+[Java, C, Python]
+
+After:
+
+[C, Java, Python]
+16. clone()
+
+Creates copy.
+
+ArrayList<String> copy =
+(ArrayList<String>) list.clone();
+17. subList()
+
+Creates a portion of list.
+
+list.subList(1, 3);
+18. toArray()
+
+Converts ArrayList to Array.
+
+Object[] arr = list.toArray();
+19. retainAll()
+
+Keeps only common elements.
+
+list1.retainAll(list2);
+20. Iterator()
+
+Used for traversal.
+
+Iterator<String> itr = list.iterator();
+
+while(itr.hasNext()){
+    System.out.println(itr.next());
+}
+Interview Methods (Must Know)
+add()
+get()
+set()
+remove()
+contains()
+size()
+isEmpty()
+clear()
+indexOf()
+addAll()
+sort()
+iterator()
+Memory Formula
+ArrayList Methods
+
+ADD
+ ├─ add()
+ ├─ add(index)
+ └─ addAll()
+
+GET
+ └─ get()
+
+UPDATE
+ └─ set()
+
+DELETE
+ ├─ remove()
+ ├─ removeAll()
+ └─ clear()
+
+SEARCH
+ ├─ contains()
+ ├─ indexOf()
+ └─ lastIndexOf()
+
+SIZE
+ ├─ size()
+ └─ isEmpty()
+
+UTILITY
+ ├─ sort()
+ ├─ clone()
+ ├─ subList()
+ ├─ toArray()
+ └─ iterator()
+
+If you're preparing Java notes, these 20 methods cover about 95% of ArrayList usage
+ in interviews and real-world applications.

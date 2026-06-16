@@ -1,0 +1,281 @@
+
+Collection in Java
+Definition
+
+Collection is a framework in Java that provides classes and interfaces to store,
+ manage, and manipulate groups of objects dynamically.
+
+Unlike arrays, collections can grow and shrink automatically.
+
+Simple Definition (Interview)
+
+A Collection in Java is a framework used to store and manage multiple objects dynamically.
+
+Why Collection is Needed?
+Array Problems
+
+❌ Fixed Size
+
+int[] arr = new int[5];
+
+Cannot increase size after creation.
+
+❌ Stores only same data type.
+
+❌ Insertion and deletion are difficult.
+
+Collection Advantages
+
+✅ Dynamic Size
+
+✅ Easy Insertion
+
+✅ Easy Deletion
+
+✅ Searching Support
+
+✅ Sorting Support
+
+✅ Ready-made Data Structures
+
+Collection Framework Hierarchy
+                    Iterable
+                        │
+                        ▼
+                  Collection
+                        │
+        ┌───────────────┼───────────────┐
+        ▼               ▼               ▼
+      List             Set            Queue
+        │               │               │
+        ▼               ▼               ▼
+  ArrayList      HashSet         PriorityQueue
+  LinkedList     LinkedHashSet
+  Vector         TreeSet
+Formula to Remember Collection Framework
+Collection
+    │
+    ├── List  → Ordered + Duplicate Allowed
+    │
+    ├── Set   → No Duplicate
+    │
+    └── Queue → FIFO
+Shortcut Formula
+List  = Order + Duplicate ✔
+
+Set   = No Duplicate ✔
+
+Queue = First In First Out ✔
+Collection Framework Diagram
+4
+1. List Interface
+Features
+
+✅ Maintains insertion order
+
+✅ Duplicates allowed
+
+✅ Index based
+
+Implementations
+ArrayList
+LinkedList
+Vector
+Example
+import java.util.*;
+
+public class Demo {
+
+    public static void main(String[] args) {
+
+        List<String> list = new ArrayList<>();
+
+        list.add("Java");
+        list.add("Python");
+        list.add("Java");
+
+        System.out.println(list);
+    }
+}
+
+Output
+
+[Java, Python, Java]
+ArrayList Diagram
+Index: 0       1       2
+       ▼       ▼       ▼
+      Java  Python   Java
+2. Set Interface
+Features
+
+✅ No duplicates
+
+❌ No indexing
+
+Implementations
+HashSet
+LinkedHashSet
+TreeSet
+Example
+import java.util.*;
+
+public class Demo {
+
+    public static void main(String[] args) {
+
+        Set<String> set = new HashSet<>();
+
+        set.add("Java");
+        set.add("Python");
+        set.add("Java");
+
+        System.out.println(set);
+    }
+}
+
+Output
+
+[Java, Python]
+Set Diagram
+Add Java
+Add Python
+Add Java
+
+Result
+
+┌───────┐
+│ Java  │
+├───────┤
+│Python │
+└───────┘
+
+Duplicate removed automatically.
+
+3. Queue Interface
+Features
+
+✅ FIFO (First In First Out)
+
+Example
+import java.util.*;
+
+public class Demo {
+
+    public static void main(String[] args) {
+
+        Queue<Integer> q = new LinkedList<>();
+
+        q.add(10);
+        q.add(20);
+        q.add(30);
+
+        System.out.println(q.poll());
+    }
+}
+
+Output
+
+10
+Queue Diagram
+Front                    Rear
+
+[10] → [20] → [30]
+
+poll()
+
+[20] → [30]
+Most Used Collection Classes
+Interface	Class
+List	ArrayList
+List	LinkedList
+List	Vector
+Set	HashSet
+Set	LinkedHashSet
+Set	TreeSet
+Queue	PriorityQueue
+Queue	LinkedList
+Collection vs Array
+Array	Collection
+Fixed Size	Dynamic Size
+Stores primitives	Stores objects
+Less flexible	More flexible
+Built into language	Framework
+Limited methods	Many utility methods
+Common Collection Methods
+add()
+remove()
+contains()
+size()
+isEmpty()
+clear()
+Example
+ArrayList<String> list = new ArrayList<>();
+
+list.add("Java");
+list.add("Python");
+
+System.out.println(list.size());
+
+list.remove("Java");
+
+System.out.println(list.contains("Python"));
+Real-Life Example
+📚 Library
+      │
+      ▼
+Collection
+      │
+ ┌────┼────┐
+ ▼    ▼    ▼
+List Set Queue
+
+Books Students Waiting Line
+Interview Questions
+What is Collection?
+
+A framework used to store and manage groups of objects dynamically.
+
+Difference between Collection and Collections?
+Collection	Collections
+Interface	Utility Class
+Stores data	Provides helper methods
+Can Collection store primitive data?
+
+No.
+
+ArrayList<int> list;   // Invalid
+
+Use Wrapper Classes:
+
+ArrayList<Integer> list;
+Which Collection is used most?
+
+✅ ArrayList
+
+Which Collection removes duplicates?
+
+✅ HashSet
+
+Which Collection follows FIFO?
+
+✅ Queue
+
+Final Memory Formula
+Java Collection Framework
+
+Collection
+    │
+ ┌──┼──┐
+ ▼  ▼  ▼
+List Set Queue
+
+List  → Ordered + Duplicate
+Set   → No Duplicate
+Queue → FIFO
+
+Most Used:
+ArrayList
+HashSet
+PriorityQueue
+
+This hierarchy and formula are asked very frequently in Java interviews and form the foundation for learning advanced collections like Map, HashMap, and TreeMap.

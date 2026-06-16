@@ -23,10 +23,6 @@ class test1{
             System.out.println("this is m1 method");
         }
 }
-
-
-
-
 public class practice1 {
     public static void main(String[] args){
         test1 t1=new test1();

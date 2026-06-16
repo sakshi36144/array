@@ -1,4 +1,4 @@
-package folder;
+package Collection;
 
 public class nw {
     public static void main(String[] args) {

@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "anonymousArray",
+            "request": "launch",
+            "mainClass": "Array.anonymousArray",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "M19",
+            "request": "launch",
+            "mainClass": "Methods.M19",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "Association.Q2",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "Association.Q1",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "Abstraction.Q1",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "InterviewOverloading",
+            "request": "launch",
+            "mainClass": "polymorphism.InterviewOverloading",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "overloading",
+            "request": "launch",
+            "mainClass": "polymorphism.overloading",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "overriding",
+            "request": "launch",
+            "mainClass": "polymorphism.overriding",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "Array.Q2",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q1codingNG",
+            "request": "launch",
+            "mainClass": "Array.Q1codingNG",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "q1",
+            "request": "launch",
+            "mainClass": "Inheritance.q1",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
             "name": "fin_al2",
             "request": "launch",
             "mainClass": "Encapsulation.fin_al2",

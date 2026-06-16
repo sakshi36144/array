@@ -4,13 +4,14 @@ class Person{
     private int age;
     private String gender;
     private String city;
-
+// constructor
 public Person(String name, int age, String gender, String city){
     this.name=name;
     this.age=age;
     this.gender=gender;
     this.city=city;
 }
+// instance method
 public void printDescriptions(){
     System.out.println("Name is : " + name);
     System.out.println("Age is : " + age);

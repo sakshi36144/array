@@ -5,14 +5,14 @@ class Student{
    private String course;
    private int fee;
 
-
+//   constructor
     Student(int id, String name, String course, int fee){
     this.id=id;
     this.name=name;
     this.course=course;
     this.fee=fee;
     }
-
+    //  this is instance method 
     public void Studentdetails(){
     System.out.println("Student Id is : " + id);
     System.out.println(" Student Name is : " + name);

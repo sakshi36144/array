@@ -1,0 +1,173 @@
+If you want to make the architecture more interactive and easy to remember,
+ you can add icons, responsibilities, and data flow arrows like this:
+
+Modern Android Architecture (Detailed)
+                    👤 User
+                       │
+                       ▼
+┌─────────────────────────────┐
+│ 🎨 UI Layer (Compose Screen) │
+│ HomeScreen()                 │
+│ LoginScreen()                │
+│ NotesScreen()                │
+└─────────────────────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│ 🧠 ViewModel Layer           │
+│ UserViewModel               │
+│ NotesViewModel              │
+│ Manages UI State            │
+└─────────────────────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│ 📦 Repository Layer         │
+│    UserRepository           │
+│   NotesRepository           │
+│    Single Source of Truth   │
+└─────────────────────────────┘
+         │               │
+         ▼               ▼
+┌───────────────┐  ┌───────────────┐
+│ 🌐 API Layer   │  │ 💾 Room DB    │
+│ Retrofit      │  │ SQLite        │
+│ REST API      │  │ Local Storage │
+└───────────────┘  └───────────────┘
+         │               │
+         └───────┬───────┘
+                 ▼
+          📊 Application Data
+How Components Interact
+1️⃣ User Interaction
+
+User clicks a button:
+
+Button(
+    onClick = {
+        viewModel.getUsers()
+    }
+) {
+    Text("Load Users")
+}
+
+Flow:
+
+👤 User
+   │
+   ▼
+🎨 UI Layer
+2️⃣ UI → ViewModel
+
+UI sends request to ViewModel.
+
+viewModel.getUsers()
+🎨 UI
+   │
+   ▼
+🧠 ViewModel
+
+Responsibilities:
+
+Manage UI state
+Handle user actions
+Call Repository
+3️⃣ ViewModel → Repository
+repository.getUsers()
+🧠 ViewModel
+      │
+      ▼
+📦 Repository
+
+Repository decides:
+
+Should data come from:
+      │
+      ├── 🌐 API ?
+      │
+      └── 💾 Room Database ?
+4️⃣ Repository → API
+api.getUsers()
+📦 Repository
+      │
+      ▼
+🌐 Retrofit API
+
+Example:
+
+interface UserApi {
+
+    @GET("users")
+    suspend fun getUsers(): List<User>
+}
+5️⃣ Repository → Database
+userDao.getUsers()
+📦 Repository
+      │
+      ▼
+💾 Room Database
+
+Example:
+
+@Dao
+interface UserDao {
+
+    @Query("SELECT * FROM users")
+    fun getUsers(): List<User>
+}
+6️⃣ Data Returns Back
+💾 Database / 🌐 API
+            │
+            ▼
+📦 Repository
+            │
+            ▼
+🧠 ViewModel
+            │
+            ▼
+🎨 UI Layer
+            │
+            ▼
+👤 User
+Real Notes App Architecture
+📱 Notes App
+│
+├── 🎨 Presentation Layer
+│   ├── HomeScreen
+│   ├── AddNoteScreen
+│   ├── NoteDetailScreen
+│   └── NotesViewModel
+│
+├── 🧠 Business Layer
+│   ├── AddNoteUseCase
+│   ├── DeleteNoteUseCase
+│   ├── UpdateNoteUseCase
+│   └── GetNotesUseCase
+│
+├── 📦 Data Layer
+│   ├── NotesRepository
+│   ├── NotesDao
+│   └── NotesDatabase
+│
+├── 🌐 Network Layer
+│   └── Retrofit API
+│
+└── 🔧 Dependency Injection
+    └── Hilt
+Memory Trick for Interviews
+👤 User
+   ↓
+🎨 UI
+   ↓
+🧠 ViewModel
+   ↓
+📦 Repository
+   ↓
+🌐 API / 💾 Database
+
+Formula:
+
+User → UI → ViewModel → Repository → API/Database → Repository → ViewModel → UI → User
+
+This is the architecture used in most modern Android apps built with Jetpack Compose 
++ MVVM + Repository + Room + Retrofit + Hilt.
