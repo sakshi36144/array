@@ -6,6 +6,125 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Q19",
+            "request": "launch",
+            "mainClass": "Q19",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q18",
+            "request": "launch",
+            "mainClass": "Q18",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q16",
+            "request": "launch",
+            "mainClass": "Q16",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q15",
+            "request": "launch",
+            "mainClass": "Q15",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q14",
+            "request": "launch",
+            "mainClass": "Q14",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q13",
+            "request": "launch",
+            "mainClass": "Q13",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q12",
+            "request": "launch",
+            "mainClass": "Q12",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q10",
+            "request": "launch",
+            "mainClass": "Q10",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q9",
+            "request": "launch",
+            "mainClass": "Q9",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q8",
+            "request": "launch",
+            "mainClass": "Q8",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q7",
+            "request": "launch",
+            "mainClass": "Q7",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q6",
+            "request": "launch",
+            "mainClass": "Q6",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q5",
+            "request": "launch",
+            "mainClass": "Q5",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q4",
+            "request": "launch",
+            "mainClass": "Q4",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q3",
+            "request": "launch",
+            "mainClass": "Q3",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "Q2",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "Q1",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
             "name": "anonymousArray",
             "request": "launch",
             "mainClass": "Array.anonymousArray",

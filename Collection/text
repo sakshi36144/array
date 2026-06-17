@@ -185,29 +185,36 @@ poll()
 
 [20] → [30]
 Most Used Collection Classes
-Interface	Class
-List	ArrayList
-List	LinkedList
-List	Vector
-Set	HashSet
-Set	LinkedHashSet
-Set	TreeSet
-Queue	PriorityQueue
-Queue	LinkedList
-Collection vs Array
-Array	Collection
-Fixed Size	Dynamic Size
-Stores primitives	Stores objects
-Less flexible	More flexible
-Built into language	Framework
-Limited methods	Many utility methods
-Common Collection Methods
-add()
-remove()
-contains()
-size()
-isEmpty()
-clear()
+Interface	   Class
+List	      ArrayList
+List	      LinkedList
+List	       Vector
+Set	           HashSet
+Set        	LinkedHashSet
+Set         	TreeSet
+Queue	     PriorityQueue
+Queue	      LinkedList
+
+
+***************Collection vs Array***********
+Array                	Collection
+Fixed Size	            Dynamic Size
+Stores primitives	    Stores objects
+Less flexible	        More flexible
+
+*************************************************
+   Built into language	         Framework
+  Limited methods	                Many utility methods
+
+****************************************************
+Common Collection Methods                         |
+add()                                             |
+remove()                                          |
+contains()                                        |
+size()                                            |
+isEmpty()                                         |
+clear()                                           |
+*****************************************************-----
 Example
 ArrayList<String> list = new ArrayList<>();
 
