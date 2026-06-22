@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SelectionSorting",
+            "request": "launch",
+            "mainClass": "DSA.SelectionSorting",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSortingS",
+            "request": "launch",
+            "mainClass": "DSA.BubbleSortingS",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSorting",
+            "request": "launch",
+            "mainClass": "DSA.BubbleSorting",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Sorting",
+            "request": "launch",
+            "mainClass": "DSA.Sorting",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Search",
+            "request": "launch",
+            "mainClass": "DSA.Search",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Delection",
+            "request": "launch",
+            "mainClass": "DSA.Delection",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "bubble",
+            "request": "launch",
+            "mainClass": "bubble",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Insertion",
+            "request": "launch",
+            "mainClass": "DSA.Insertion",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
             "name": "Q19",
             "request": "launch",
             "mainClass": "Q19",
