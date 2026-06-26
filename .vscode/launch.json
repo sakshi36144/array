@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "second",
+            "request": "launch",
+            "mainClass": "Singleton.second",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "first",
+            "request": "launch",
+            "mainClass": "Singleton.first",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Default",
+            "request": "launch",
+            "mainClass": "Interface1.Default",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "firstfile",
+            "request": "launch",
+            "mainClass": "Interface1.firstfile",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Arrays_2D",
+            "request": "launch",
+            "mainClass": "DSA.Arrays_2D",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "DSA.Q1",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
             "name": "SelectionSorting",
             "request": "launch",
             "mainClass": "DSA.SelectionSorting",
