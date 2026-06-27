@@ -1,5 +1,5 @@
 package UtilityClass;
-// Non -Static Nested Class ---->Topic
+// Static Nested Class ---->Topic
 
 class outer{
    String name="vinay";
@@ -16,12 +16,12 @@ class outer{
    }
 
 
-class Inner{
+  static class Inner{
     int id= 33;
     static float salary= 5555f;
 
     public void instanceMethod2(){
-    System.out.println(name);
+    // System.out.println(name);
     System.out.println(compName);
     System.out.println(id);
     System.out.println(salary);
@@ -39,12 +39,11 @@ class Inner{
 }
 public class StaticClass{
     public static void main(String[] args){
-        System.out.println(outer.compName);
-        outer.staticMethod();
-
-
-        outer Outer=new outer();
-         Outer.instanceMethod();
-        outer.Inner inner=Outer.new Inner();
+     
+        outer.Inner inner= new outer.Inner();
+        inner.instanceMethod2();
     }
 }
+//  Get-ChildItem -Recurse *.class | Remove-Item
+// javac UtilityClass\StaticClass.java
+// java UtilityClass.StaticClass

@@ -16,7 +16,7 @@ class DatabaseConnection{
       }
 }
 
-public class second {
+public class secondS {
     public static void main(String[] args){
         DatabaseConnection d1= DatabaseConnection.getInstance();
          DatabaseConnection d2= DatabaseConnection.getInstance();

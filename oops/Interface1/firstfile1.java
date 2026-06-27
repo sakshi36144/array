@@ -6,7 +6,7 @@ interface MyInterface{
     }
 }
 
-public class firstfile {
+public class firstfile1 {
     public static void main(String[] args){
          MyInterface.m1();
     }

@@ -1,7 +1,7 @@
 // WAP to input and display elements of and array of size 15.
 import java.util.Scanner;
 
-public class Q1 {
+public class Q1a {
 
 
        public static void inputArr(int arr[]) {

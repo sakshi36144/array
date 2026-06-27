@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "anno",
+            "request": "launch",
+            "mainClass": "UtilityClass.anno",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "localclass",
+            "request": "launch",
+            "mainClass": "UtilityClass.localclass",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
+            "name": "StaticClass",
+            "request": "launch",
+            "mainClass": "UtilityClass.StaticClass",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
             "name": "NestedClass",
             "request": "launch",
             "mainClass": "UtilityClass.NestedClass",
