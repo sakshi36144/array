@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NestedClass",
+            "request": "launch",
+            "mainClass": "UtilityClass.NestedClass",
+            "projectName": "java_d1e5d28"
+        },
+        {
+            "type": "java",
             "name": "second",
             "request": "launch",
             "mainClass": "Singleton.second",

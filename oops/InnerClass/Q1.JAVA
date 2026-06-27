@@ -10,7 +10,8 @@ public class Q1 {
 
 		public void eat() {
 			// generated the error is null pointer exception 
-            // System.out.println(name.charAt(0) + " can eat............\n"); generated the error because name is not initialized yet, so we will initialize it in main method and then call eat method
+            // System.out.println(name.charAt(0) + " can eat............\n");
+			//  generated the error because name is not initialized yet, so we will initialize it in main method and then call eat method
 		}
 
 		public void printDescriptions() {
